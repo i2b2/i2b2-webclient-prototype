@@ -556,6 +556,21 @@ iframe.pluginCell {
 	z-index: 1000;
 }
 
+.search-input {
+  padding: 10px;
+  border-radius: 20px;
+  width: 400px;
+}
+
+.search-input.open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#goldenLayoutId1 {
+        visibility: hidden;
+}
+
 #goldenLayoutId1 > .lm_root > .lm_row > .lm_splitter {
 	margin-left: -2px;
 }
