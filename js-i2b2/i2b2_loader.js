@@ -19,6 +19,15 @@ if (undefined==i2b2.hive.base_classes) { i2b2.hive.base_classes = {}; }
 
 i2b2.ClientVersion = "1.8.0";
 
+function search(ele) {
+  if(event.keyCode == 13){
+     document.getElementById("goldenLayoutId1").style.visibility= 'visible' ;
+     document.getElementById("goldenLayoutIdai").style.visibility= 'hidden' ;
+
+     i2b2.CRC.ctrlr.QT.doQueryLoad("1065");
+  }
+}
+
 
 // ================================================================================================== //
 i2b2.Init = function() {
