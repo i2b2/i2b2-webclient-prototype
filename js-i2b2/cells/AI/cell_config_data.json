@@ -1,0 +1,12 @@
+{
+  "files": [
+    "AI_ctrlr_general.js",
+    "i2b2_msgs.js"
+  ],
+  "css": ["sdx_AI_types.css"],
+  "config": {
+    "name": "AI Cell",
+    "icons": {},
+    "category": ["core","cell"]
+  }
+}
