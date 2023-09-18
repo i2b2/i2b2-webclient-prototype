@@ -1,12 +1,12 @@
 {
-  "urlProxy": "/~proxy",
+  "urlProxy": "proxy.php",
   "urlFramework": "js-i2b2/",
   "lstDomains": [
     { "domain": "i2b2demo",
-      "name": "i2b2.org Demo",
-      "urlCellPM": "http://services.i2b2.org/i2b2/services/PMService/",
+      "name": "AI Demo",
+      "urlCellPM": "http://127.0.0.1:9090/i2b2/services/PMService/",
       "allowAnalysis": true,
-      "debug": false
+      "debug": true
     }, {
       "domain": "i2b2demo",
       "name": "Clinical Query 2 Demo",
